@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArvoreAVL.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="No.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArvoreAVL.h" />
+    <ClInclude Include="No.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
